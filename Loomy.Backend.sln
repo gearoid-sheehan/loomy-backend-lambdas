@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uploadProjectToVimeo", "UploadProjectS3ToVimeo\uploadProjectToVimeo.csproj", "{1614E1CA-0AAF-4C0E-BA5C-E9CB34253A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uploadProjectToAWS", "UploadProjectClientToS3\uploadProjectToAWS.csproj", "{8EE023E8-3399-4B14-966E-E45EC03F2DB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "processLeadsSpreadsheet", "processLeadsSpreadsheet\processLeadsSpreadsheet.csproj", "{05B7B228-D078-4C0D-94A2-77B828D8308B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1614E1CA-0AAF-4C0E-BA5C-E9CB34253A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1614E1CA-0AAF-4C0E-BA5C-E9CB34253A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1614E1CA-0AAF-4C0E-BA5C-E9CB34253A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1614E1CA-0AAF-4C0E-BA5C-E9CB34253A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE023E8-3399-4B14-966E-E45EC03F2DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE023E8-3399-4B14-966E-E45EC03F2DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE023E8-3399-4B14-966E-E45EC03F2DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE023E8-3399-4B14-966E-E45EC03F2DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B7B228-D078-4C0D-94A2-77B828D8308B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B7B228-D078-4C0D-94A2-77B828D8308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B7B228-D078-4C0D-94A2-77B828D8308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B7B228-D078-4C0D-94A2-77B828D8308B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1995DD0-ACFD-414F-9CC2-E073F8FB86C5}
+	EndGlobalSection
+EndGlobal
