@@ -1,5 +1,5 @@
 # Loomy.Backend
-All Lambdas should be written in .NET 6 (C#/PowerShell) where possible.<br><br>
+All Lambdas should be written in .NET 6 (C#/PowerShell).<br><br>
 **Lambda Naming Conventions:**<br>
 - When creating a Lambda locally in the Loomy.Backend solution, camelCase naming convention should be adhered to.<br>
 Example: *uploadProject*
